@@ -1,0 +1,211 @@
+body {
+  min-width: 320px;
+  max-width: 375px;
+  margin: 0 auto;
+  background-color: #f2f4f7;
+}
+@media screen and (min-width: 375px) {
+  html {
+    font-size: 37.5px !important;
+  }
+}
+a {
+  text-decoration: none;
+  font-size: 0.3333rem;
+  color: #707070;
+}
+.warp {
+  background-color: #fff;
+  text-align: center;
+  padding-bottom: 0.5733rem;
+}
+.warp .header {
+  height: 1.72rem;
+  border-bottom: 1px solid #eaeaea;
+  color: #1c1c1c;
+  line-height: 1.72rem;
+  font-size: 0.4667rem;
+}
+.warp .nav {
+  display: flex;
+  flex-wrap: wrap;
+  height: 6.96rem;
+  padding-top: 0.68rem;
+}
+.warp .nav .item {
+  flex: 33.33%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.warp .nav .item img {
+  width: 1.5467rem;
+  height: 1.5467rem;
+}
+.warp .go img {
+  width: 9.6267rem;
+  margin: 0 0.1333rem;
+}
+.content {
+  height: 7.6667rem;
+  margin-top: 5px;
+  padding: 0.5333rem 0.2667rem;
+  background-color: #fff;
+}
+.content .con-hd {
+  display: flex;
+  justify-content: space-between;
+}
+.content .con-hd h4 {
+  display: flex;
+  margin: 0;
+  font-size: 0.3733rem;
+}
+.content .con-hd h4 .icon {
+  width: 0.5067rem;
+  height: 0.5067rem;
+  margin-right: 0.24rem;
+}
+.content .con-hd h4 .icon img {
+  width: 100%;
+}
+.content .con-hd .more {
+  color: #999999;
+  font-size: 0.2933rem;
+}
+.content .get_job_focus {
+  position: relative;
+  overflow: hidden;
+  height: 5.6667rem;
+  margin-top: 0.52rem;
+}
+.content .swiper-container {
+  width: 100%;
+  height: 100%;
+}
+.content .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  transition: 300ms;
+  transform: scale(0.8);
+  opacity: 0.6;
+}
+.content .swiper-slide p {
+  margin-top: 0.32rem;
+  color: #333333;
+  font-size: 0.3333rem;
+}
+.content .swiper-slide-active,
+.content .swiper-slide-duplicate-active {
+  transform: scale(1);
+  opacity: 1;
+}
+.study_con {
+  margin-top: 5px;
+  padding: 0.5333rem 0.2667rem;
+  padding-bottom: 1.6667rem;
+  background-color: #fff;
+}
+.study_con .con-hd {
+  display: flex;
+  justify-content: space-between;
+}
+.study_con .con-hd h4 {
+  display: flex;
+  margin: 0;
+  font-size: 0.3733rem;
+}
+.study_con .con-hd h4 .icon {
+  width: 0.5067rem;
+  height: 0.5067rem;
+  margin-right: 0.24rem;
+}
+.study_con .con-hd h4 .icon img {
+  width: 100%;
+}
+.study_con .con-hd .more {
+  color: #999999;
+  font-size: 0.2933rem;
+}
+.study_con .study {
+  position: relative;
+  height: 4.72rem;
+  margin: 0.52rem 0;
+}
+.study_con .swiper {
+  width: 100%;
+  height: 100%;
+}
+.study_con .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  border-radius: 0.266667rem;
+  box-shadow: 0 0px 10px rgba(0, 0, 0, 0.1);
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: column;
+}
+.study_con .swiper-slide h5 {
+  margin: 10px 0 ;
+  margin-left: 0.1067rem;
+  color: #333333;
+  font-size: 0.3467rem;
+  font-weight: 400;
+  text-align: left;
+}
+.study_con .swiper-slide p {
+  margin-left: 0.1067rem;
+  font-size: 0.3467rem;
+  color: #FF4400;
+  text-align: left;
+}
+.study_con .swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+/* 底部 */
+.footer {
+  position: fixed;
+  z-index: 9999;
+  display: flex;
+  bottom: 0;
+  left: 0;
+  height: 1.5067rem;
+  width: 100%;
+  background-color: #fff;
+  border-top: 1px solid #ccc;
+}
+.footer a {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.footer a img {
+  width: 0.5467rem;
+}
+.footer a p {
+  margin-top: 0.1467rem;
+}
